@@ -46,8 +46,9 @@ The same applies for any plugin configuration inherited from this pom.
 
 == License
 
-Apache V2
-
+Apache License, Version 2.0
+For full text see LICENSE.txt file or http://www.apache.org/licenses/LICENSE-2.0
+ 
 == Contributions
 
 are very welcome. Send a pull request or report issues on GitHub. 
