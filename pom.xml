@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2012 simpligility technologies inc. -->
 <!-- Licensed under the Apache License, Version 2.0 (the "License") -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.simpligility.maven</groupId>
 	<artifactId>progressive-company-super-pom</artifactId>
@@ -15,14 +16,20 @@
 		<name>simpligility technologies inc.</name>
 		<url>http://www.simpligility.com</url>
 	</organization>
-	<contributors>
-		<contributor>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
 			<name>Manfred Moser</name>
 			<email>manfred@simpligility.com</email>
 			<organization>simpligility technologies inc.</organization>
 			<organizationUrl>http://www.simpligility.com</organizationUrl>
-		</contributor>
-	</contributors>
+		</developer>
+	</developers>
 	<scm>
 		<connection>scm:git:git://github.com/simpligility/progressive-company-super-pom.git</connection>
 		<developerConnection>scm:git:git@github.com:simpligility/progressive-company-super-pom.git</developerConnection>
