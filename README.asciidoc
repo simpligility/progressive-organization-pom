@@ -1,0 +1,24 @@
+simpligility technologies inc.
+
+= Progressive Company Super POM
+
+== Introduction
+
+== Usage
+
+----
+<parent>
+	<groupId>com.simpligility.maven</groupId>
+	<artifactId>progressive-company-super-pom</artifactId>
+	<version>0.0.1</version>
+</parent>
+----
+
+== License
+
+Apache V2
+
+== Contributions
+
+Are very welcome. Send a pull request on GitHub.
+
