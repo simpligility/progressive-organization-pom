@@ -1,18 +1,48 @@
-simpligility technologies inc.
-
+simpligility technologies inc. presents 
 = Progressive Company Super POM
 
 == Introduction
 
+The Progressive Company Super POM is a pom project for Apache Maven. It implements
+a so called "Company" or "Organizational POM", by locking down the versions of Maven 
+plugins and further configuration.
+
+It is called "progressive" because we are trying to keep up to date with the latest 
+releases of all the referenced plugins. This is done by the believe that each new 
+release of a plugin brings more good features and bug fixes and bad ones and is therefore
+an improvement worth adopting. This is done even if this early adoption ends up finding 
+issues in the believe that finding issues early by adopting new versions soon gets them 
+fixed earlier.
+ 
 == Usage
+
+The pom is deployed to the Central Repository and can therefore be used by just adding
+the following snippet to your project pom.xml file.
 
 ----
 <parent>
-	<groupId>com.simpligility.maven</groupId>
-	<artifactId>progressive-company-super-pom</artifactId>
-	<version>0.0.1</version>
+    <groupId>com.simpligility.maven</groupId>
+    <artifactId>progressive-company-super-pom</artifactId>
+    <version>0.0.1</version>
 </parent>
 ----
+
+Once you have done that you can reference any plugin without a version and will 
+inherit the latest version automatically from the Progressive Company Super POM 
+e.g. like that
+
+----
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+</plugin>
+-----
+
+If for some reason (unlikely but possible) you can not adopt the latest version 
+of a specific plugin you can still use this project as a parent pom and just override 
+the one plugin version that is the offender.
+
+The same applies for any plugin configuration inherited from this pom.
 
 == License
 
@@ -20,5 +50,5 @@ Apache V2
 
 == Contributions
 
-Are very welcome. Send a pull request on GitHub.
+are very welcome. Send a pull request or report issues on GitHub. 
 
