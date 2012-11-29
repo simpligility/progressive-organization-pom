@@ -85,7 +85,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.0.0</version>
+					<version>3.0</version>
 					<!-- todo should we be progressive about java version as well and set 
 						1.7? -->
 				</plugin>
