@@ -6,14 +6,15 @@ simpligility technologies inc. presents
 
 The Progressive Company Super POM is a pom project for Apache Maven. It implements
 a so called "Company" or "Organizational POM", by locking down the versions of Maven 
-plugins and further configuration.
+plugins and further configuration. This is an important best practice for any 
+organization using Maven.
 
 It is called "progressive" because we are trying to keep up to date with the latest 
 releases of all the referenced plugins. This is done by the believe that each new 
-release of a plugin brings more good features and bug fixes and bad ones and is therefore
-an improvement worth adopting. This is done even if this early adoption ends up finding 
-issues in the believe that finding issues early by adopting new versions soon gets them 
-fixed earlier.
+release of a plugin brings more good features and bug fixes tahn bad ones. New versions 
+are therefore an improvement worth adopting. This is done even if this early adoption 
+ends up finding issues in the believe that finding issues early by adopting new 
+versions soon gets them fixed earlier.
  
 == Usage
 
@@ -28,7 +29,7 @@ the following snippet to your project pom.xml file.
 </parent>
 ----
 
-Once you have done that you can reference any plugin without a version and will 
+Once you have done that, you can reference any plugin without a version and will 
 inherit the latest version automatically from the Progressive Company Super POM 
 e.g. like that
 
@@ -39,9 +40,10 @@ e.g. like that
 </plugin>
 -----
 
-If for some reason (unlikely but possible) you can not adopt the latest version 
-of a specific plugin you can still use this project as a parent pom and just override 
-the one plugin version that is the offender.
+If, for some reason (unlikely but possible), you can not adopt the latest version 
+of a specific plugin, you can and should still use this project as a parent pom 
+and just override the one plugin version that is the offender. If you encounter 
+this situation be sure to report the issue with the respective plugin.
 
 The same applies for any plugin configuration inherited from this pom.
 
@@ -54,3 +56,12 @@ For full text see LICENSE.txt file or http://www.apache.org/licenses/LICENSE-2.0
 
 are very welcome. Send a pull request or report issues on GitHub. 
 
+
+== Known users of this project
+
+This is appropriately licensed to be easily used by commercial and open source 
+projects alike. Please let us know if you are using this project and are happy 
+to be listed here.
+
+- Android Maven Plugin (upcoming in future release)
+- ksoap2-android  (upcoming in future release)
