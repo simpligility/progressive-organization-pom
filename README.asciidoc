@@ -25,7 +25,7 @@ the following snippet to your project pom.xml file.
 <parent>
     <groupId>com.simpligility.maven</groupId>
     <artifactId>progressive-company-super-pom</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
 </parent>
 ----
 
