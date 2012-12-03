@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2012 simpligility technologies inc. -->
 <!-- Licensed under the Apache License, Version 2.0 (the "License") -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.simpligility.maven</groupId>
 	<artifactId>progressive-company-super-pom</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5</version>
 	<packaging>pom</packaging>
 	<name>Progressive Company Super POM</name>
 	<description>A company super pom for Maven projects using the latest versions of available plugins and progressively updating to the latest whenever possible.</description>
@@ -34,7 +33,8 @@
 		<connection>scm:git:git://github.com/simpligility/progressive-company-super-pom.git</connection>
 		<developerConnection>scm:git:git@github.com:simpligility/progressive-company-super-pom.git</developerConnection>
 		<url>http://github.com/simpligility/progressive-company-super-pom/tree/master</url>
-	</scm>
+	  <tag>0.0.5</tag>
+  </scm>
 	<issueManagement>
 		<system>Github</system>
 		<url>http://github.com/simpligility/progressive-company-super-pom/</url>
