@@ -33,7 +33,6 @@
 		<connection>scm:git:git://github.com/simpligility/progressive-company-super-pom.git</connection>
 		<developerConnection>scm:git:git@github.com:simpligility/progressive-company-super-pom.git</developerConnection>
 		<url>http://github.com/simpligility/progressive-company-super-pom/tree/master</url>
-		<tag>0.0.1</tag>
 	</scm>
 	<issueManagement>
 		<system>Github</system>
@@ -164,12 +163,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.3.1</version>
+					<version>2.3.2</version>
 					<dependencies>
 						<dependency>
 							<groupId>org.apache.maven.scm</groupId>
 							<artifactId>maven-scm-provider-gitexe</artifactId>
-							<version>1.7</version>
+							<version>${maven.scm.version}</version>
 						</dependency>
 					</dependencies>
 					<configuration>
@@ -186,12 +185,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-scm-plugin</artifactId>
-					<version>1.8.1</version>
+					<version>${maven.scm.version}</version>
 					<dependencies>
 						<dependency>
 							<groupId>org.apache.maven.scm</groupId>
 							<artifactId>maven-scm-provider-gitexe</artifactId>
-							<version>1.8.1</version>
+							<version>${maven.scm.version}</version>
 						</dependency>
 					</dependencies>
 				</plugin>
