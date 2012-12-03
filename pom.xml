@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.simpligility.maven</groupId>
 	<artifactId>progressive-company-super-pom</artifactId>
-	<version>0.0.6-SNAPSHOT</version>
+	<version>0.0.6</version>
 	<packaging>pom</packaging>
 	<name>Progressive Company Super POM</name>
 	<description>A company super pom for Maven projects using the latest versions of available plugins and progressively updating to the latest whenever possible.</description>
@@ -33,7 +33,7 @@
 		<connection>scm:git:git://github.com/simpligility/progressive-company-super-pom.git</connection>
 		<developerConnection>scm:git:git@github.com:simpligility/progressive-company-super-pom.git</developerConnection>
 		<url>http://github.com/simpligility/progressive-company-super-pom/tree/master</url>
-	  <tag>HEAD</tag>
+	  <tag>0.0.6</tag>
   </scm>
 	<issueManagement>
 		<system>Github</system>
