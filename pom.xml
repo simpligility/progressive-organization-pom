@@ -43,10 +43,11 @@
 		probably yes -->
 	<!-- <prerequisites> <maven>3.0.3</maven> </prerequisites> -->
 	<distributionManagement>
-		<repository>
+<!-- 	<repository>
 			<id>ossrh-releases</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
+		-->
 		<snapshotRepository>
 			<id>ossrh-snapshots</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -534,6 +535,19 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<inherited>false</inherited>
+				<configuration>
+					<serverId>ossrh-releases</serverId>
+					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<stagingProfileId>42b61fb4c62700</stagingProfileId>
+				</configuration>
+			</plugin>
+
+		</plugins>
 	</build>
 	<profiles>
 		<profile>
