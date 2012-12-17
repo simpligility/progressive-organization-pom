@@ -47,6 +47,17 @@ this situation be sure to report the issue with the respective plugin.
 
 The same applies for any plugin configuration inherited from this pom.
 
+
+== Project Versioning and Updates
+
+The first publicly announced release will be 1.0.0. Following versions will always
+use http://semver.org[semantic versioning]. Whenever one of the referenced 
+plugins upgrades a major version, this project will upgrade major version by one. 
+The same process will be followed with minor as well as bugfix versions. 
+We also aim for a regular release schedule aiming initially for at least every 3 
+months, ideally every month, as well as ad hoc releases whenever often used plugins
+provide important updates. 
+
 == License
 
 Apache License, Version 2.0
