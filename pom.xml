@@ -43,8 +43,10 @@
     <maven>3.0.3</maven>
   </prerequisites>
   <distributionManagement>
-    <!-- <repository> <id>ossrh-releases</id> <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url> 
-      </repository> -->
+    <repository>
+      <id>ossrh-releases</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
     <snapshotRepository>
       <id>ossrh-snapshots</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
