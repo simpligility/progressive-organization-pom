@@ -556,7 +556,8 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <plugin>
+<!-- to activate once 1.3 is released.. 
+       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <extensions>true</extensions>
@@ -567,6 +568,7 @@
           <stagingProfileId>42b61fb4c62700</stagingProfileId>
         </configuration>
       </plugin>
+ -->    
     </plugins>
   </build>
   <profiles>
