@@ -74,5 +74,6 @@ This is appropriately licensed to be easily used by commercial and open source
 projects alike. Please let us know if you are using this project and are happy 
 to be listed here.
 
-- Android Maven Plugin (upcoming in future release)
-- ksoap2-android  (upcoming in future release)
+- http://code.google.com/p/maven-android-plugin/[Android Maven Plugin]
+- http://code.google.com/p/ksoap2-android/[ksoap2-android]
+- https://github.com/mosabua/maven-android-sdk-deployer[Maven Android SDK Deployer]
