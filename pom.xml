@@ -70,6 +70,16 @@
       <!-- Plugins are sorted alphabetically by groupId, artifactId.. -->
       <plugins>
         <plugin>
+          <groupId>com.github.github</groupId>
+          <artifactId>downloads-maven-plugin</artifactId>
+          <version>0.6</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.github</groupId>
+          <artifactId>site-maven-plugin</artifactId>
+          <version>0.7</version>
+        </plugin>
+        <plugin>
           <groupId>com.mycila.maven-license-plugin</groupId>
           <artifactId>maven-license-plugin</artifactId>
           <version>1.10.b1</version>
