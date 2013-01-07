@@ -1,0 +1,17 @@
+== Changelog/Release Notes for Progressive Company Super POM
+
+Detailed commit log is available on
+https://github.com/simpligility/progressive-company-super-pom/commits/master
+
+=== Version 0.3.1
+
+* surefire upgrade to 2.13
+* codenarc upgrade to 0.18-1
+
+=== Version <= 0.2.0,  prior to 2013 
+
+* created project
+* added all apache and codehaus plugins 
+* set up for pushing to Central 
+* multiple 0.x releases
+
