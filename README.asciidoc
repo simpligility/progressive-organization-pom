@@ -38,7 +38,7 @@ e.g. like that
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
 </plugin>
------
+----
 
 If, for some reason (unlikely but possible), you can not adopt the latest version 
 of a specific plugin, you can and should still use this project as a parent pom 
