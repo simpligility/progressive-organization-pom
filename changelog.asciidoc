@@ -3,6 +3,13 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-company-super-pom/commits/master
 
+=== Version 0.6.0
+
+* upgraded a few plugins for upcoming Maven 3.1
+* fixed wrong pmd plugin version
+
+=== Version 0.5.0
+
 === Version 0.3.1
 
 * surefire upgrade from 2.12.4 to 2.13
