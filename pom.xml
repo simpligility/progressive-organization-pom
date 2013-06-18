@@ -57,8 +57,8 @@
   <build>
     <extensions>
       <extension>
-        <groupId>org.jvnet.-svn</groupId>
-        <artifactId>-svn</artifactId>
+        <groupId>org.jvnet.wagon-svn</groupId>
+        <artifactId>wagon-svn</artifactId>
         <version>1.9</version>
       </extension>
     </extensions>
@@ -535,6 +535,11 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>was6-maven-plugin</artifactId>
           <version>1.2</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>wagon-maven-plugin</artifactId>
+          <version>1.0-beta-4</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
