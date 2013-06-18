@@ -3,6 +3,12 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-company-super-pom/commits/master
 
+=== Version 0.7.0
+
+* added wagon plugin
+* a bunch of updates to plugins
+* added templating plugin
+
 === Version 0.6.0
 
 * upgraded a few plugins for upcoming Maven 3.1
