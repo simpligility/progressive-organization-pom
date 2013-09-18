@@ -68,6 +68,10 @@ For full text see LICENSE.txt file or http://www.apache.org/licenses/LICENSE-2.0
 
 are very welcome. Send a pull request or report issues on GitHub. 
 
+== Contributors
+
+- Manfred Moser http://www.simpligility.com
+- Basil James Whitehouse III https://github.com/basil3whitehouse
 
 == Known users of this project
 
