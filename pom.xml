@@ -155,7 +155,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
-          <version>2.4</version>
+          <version>2.5</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -449,7 +449,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>nbm-maven-plugin</artifactId>
-          <version>3.10.1</version>
+          <version>3.11</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -474,7 +474,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>rpm-maven-plugin</artifactId>
-          <version>2.1-alpha-2</version>
+          <version>2.1-alpha-3</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -499,7 +499,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>2.0</version>
+          <version>2.1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -579,7 +579,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>jarjar-maven-plugin</artifactId>
-          <version>1.7</version>
+          <version>1.8</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
@@ -589,12 +589,12 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.4.4</version>
+          <version>1.4.7</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
-          <version>1.4.4</version>
+          <version>1.4.7</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
