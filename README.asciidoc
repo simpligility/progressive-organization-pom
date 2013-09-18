@@ -10,10 +10,10 @@ plugins and further configuration. This is an important best practice for any
 organization using Maven.
 
 It is called "progressive" because we are trying to keep up to date with the latest 
-releases of all the referenced plugins. This is done by the believe that each new 
-release of a plugin brings more good features and bug fixes tahn bad ones. New versions 
+releases of all the referenced plugins. This is done with the belief that each new 
+release of a plugin brings more good features and bug fixes than bad ones. New versions 
 are therefore an improvement worth adopting. This is done even if this early adoption 
-ends up finding issues in the believe that finding issues early by adopting new 
+ends up finding issues in the belief that finding issues early by adopting new 
 versions soon gets them fixed earlier.
  
 == Usage
