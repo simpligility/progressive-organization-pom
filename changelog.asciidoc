@@ -6,6 +6,9 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 === Version 0.8.0
 
 * renamed to progressive-organization-pom
+* added scala plugin
+* added asciidoctor plugin
+* removed nexus maven plugin (deprecated) 
 
 === Version 0.7.0
 
