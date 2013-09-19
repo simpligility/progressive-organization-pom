@@ -1,10 +1,10 @@
 simpligility technologies inc. presents 
 
-= Progressive Company Super POM
+= Progressive Organization POM
 
 == Introduction
 
-The Progressive Company Super POM is a pom project for Apache Maven. It implements
+The Progressive Organization POM is a pom project for Apache Maven. It implements
 a so called "Company" or "Organizational POM", by locking down the versions of Maven 
 plugins and further configuration. This is an important best practice for any 
 organization using Maven.
@@ -24,19 +24,19 @@ the following snippet to your project pom.xml file.
 ----
 <parent>
     <groupId>com.simpligility.maven</groupId>
-    <artifactId>progressive-company-super-pom</artifactId>
-    <version>0.5.0</version>
+    <artifactId>progressive-organization-pom</artifactId>
+    <version>0.8.0</version>
 </parent>
 ----
 
 Once you have done that, you can reference any plugin without a version and will 
-inherit the latest version automatically from the Progressive Company Super POM 
+inherit the latest version automatically from the Progressive Organization POM 
 e.g. like that
 
 ----
 <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
+    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+    <artifactId>android-maven-plugin</artifactId>
 </plugin>
 ----
 
@@ -66,7 +66,8 @@ For full text see LICENSE.txt file or http://www.apache.org/licenses/LICENSE-2.0
  
 == Contributions
 
-are very welcome. Send a pull request or report issues on GitHub. 
+are very welcome. Send a pull request or report issues on GitHub. Even just a suggestion
+of a useful plugin in an issue is a welcome help. 
 
 == Contributors
 

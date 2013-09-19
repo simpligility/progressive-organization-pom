@@ -1,7 +1,11 @@
 == Changelog/Release Notes for Progressive Company Super POM
 
 Detailed commit log is available on
-https://github.com/simpligility/progressive-company-super-pom/commits/master
+https://github.com/simpligility/progressive-organization-pom/commits/master
+
+=== Version 0.8.0
+
+* renamed to progressive-organization-pom
 
 === Version 0.7.0
 
