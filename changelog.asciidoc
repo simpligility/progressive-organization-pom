@@ -9,6 +9,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * added scala plugin
 * added asciidoctor plugin
 * removed nexus maven plugin (deprecated) 
+* added liquibase plugin
 
 === Version 0.7.0
 
