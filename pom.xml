@@ -616,7 +616,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
-          <version>1.4.7</version>
+          <version>1.4.8</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
