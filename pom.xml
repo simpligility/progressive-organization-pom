@@ -40,7 +40,7 @@
     <url>http://github.com/simpligility/progressive-organization-pom/</url>
   </issueManagement>
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.0.4</maven>
   </prerequisites>
   <distributionManagement>
     <snapshotRepository>
