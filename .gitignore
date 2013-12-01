@@ -1,3 +1,6 @@
 .settings
 .project
 target
+# IntelliJ IDEA
+*.iml
+.idea
