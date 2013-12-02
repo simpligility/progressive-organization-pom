@@ -58,6 +58,9 @@ We also aim for a regular release schedule aiming initially for at least every 3
 months, ideally every month, as well as ad hoc releases whenever often used plugins
 provide important updates. 
 
+More details about changes between versions are available from the 
+https://github.com/simpligility/progressive-organization-pom/blob/master/changelog.asciidoc[changelog]
+
 == License
 
 Apache License, Version 2.0
