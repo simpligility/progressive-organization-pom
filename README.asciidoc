@@ -23,9 +23,9 @@ the following snippet to your project pom.xml file.
 
 ----
 <parent>
-    <groupId>com.simpligility.maven</groupId>
-    <artifactId>progressive-organization-pom</artifactId>
-    <version>1.0.0</version>
+  <groupId>com.simpligility.maven</groupId>
+  <artifactId>progressive-organization-pom</artifactId>
+  <version>1.0.0</version>
 </parent>
 ----
 
@@ -35,8 +35,8 @@ e.g. like that
 
 ----
 <plugin>
-    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-    <artifactId>android-maven-plugin</artifactId>
+  <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+  <artifactId>android-maven-plugin</artifactId>
 </plugin>
 ----
 
