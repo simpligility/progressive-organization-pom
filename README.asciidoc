@@ -73,6 +73,7 @@ of a useful plugin in an issue is a welcome help.
 
 - Manfred Moser http://www.simpligility.com
 - Basil James Whitehouse III https://github.com/basil3whitehouse
+- Slawek Jaranowski https://github.com/slawekjaranowski
 
 == Known users of this project
 
