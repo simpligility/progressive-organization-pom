@@ -3,6 +3,35 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
+=== Version 1.1.0 - upcoming
+
+* gitignore patterns for IntelliJ IDEA
+* updated com.github.github:site-maven-plugin to 0.9
+* updated android-maven-plugin to 3.8.0
+* updated scala-maven-plugin to 3.1.6
+* updated maven-checkstyle-plugin 2.11
+* updated maven-deploy-plugin to 2.8.1
+* updated maven-install-plugin to 2.5.1
+* updated maven-release-plugin to 2.4.2
+* updated maven-shade-plugin to 2.2
+* updated tomcat6-maven-plugin to 2.2
+* updated tomcat7-maven-plugin to 2.2
+* updated cargo-maven2-plugin to 1.4.5
+* updated appassembler-maven-plugin to 1.6
+* updated clirr-maven-plugin to 2.6.1
+* updated findbugs-maven-plugin to 2.5.3
+* updated sonar-maven-plugin to 2.2
+* updated sqlj-maven-plugin to 1.2
+* updated liquibase-maven-plugin to 3.0.7
+* added jacoco-maven-plugin
+* updated nexus-m2settings-maven-plugin 1.4.8 -> 1.5.1
+* updated nexus-staging-maven-plugin 1.4.8 -> 1.5.1
+* updated Maven version to 3.1.1 (since Android Maven Plugin needs it)
+
+=== Version 1.0.0 - released 2013-09-27
+
+* officially announced release, switching to full changelog and versioning now
+
 === Version 0.8.0
 
 * renamed to progressive-organization-pom
