@@ -3,7 +3,9 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
-=== Version 1.1.0 - upcoming
+=== Version x.y.z - upcoming
+
+=== Version 1.1.0 - released 2013-12-02
 
 * gitignore patterns for IntelliJ IDEA
 * updated com.github.github:site-maven-plugin to 0.9
