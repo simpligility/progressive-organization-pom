@@ -78,6 +78,11 @@
           <artifactId>site-maven-plugin</artifactId>
           <version>0.9</version>
         </plugin>
+         <plugin>
+          <groupId>com.github.maven-nar</groupId>
+          <artifactId>nar-maven-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
         <plugin>
           <groupId>com.jayway.maven.plugins.android.generation2</groupId>
           <artifactId>android-maven-plugin</artifactId>
