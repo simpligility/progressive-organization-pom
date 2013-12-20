@@ -5,6 +5,11 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 === Version x.y.z - upcoming
 
+* added enforcer check for Maven version
+** see https://github.com/simpligility/progressive-organization-pom/pull/9 
+** contributed by Karl Heinz Marbaise
+
+
 === Version 1.1.0 - released 2013-12-02
 
 * gitignore patterns for IntelliJ IDEA
