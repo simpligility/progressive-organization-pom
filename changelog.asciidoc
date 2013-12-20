@@ -8,7 +8,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * added enforcer check for Maven version
 ** see https://github.com/simpligility/progressive-organization-pom/pull/9 
 ** contributed by Karl Heinz Marbaise
-
+* updated maven-jxr-plugin 2.3 -> 2.4
 
 === Version 1.1.0 - released 2013-12-02
 
