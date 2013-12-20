@@ -39,8 +39,10 @@
     <system>Github</system>
     <url>http://github.com/simpligility/progressive-organization-pom/</url>
   </issueManagement>
+  <!-- This marked as deprecated for Maven 3.X. This is checked by maven-enforcer-plugin -->
+  <!-- https://jira.codehaus.org/browse/MNG-5297 -->
   <prerequisites>
-    <maven>3.1.1</maven>
+    <maven>${maven.version}</maven>
   </prerequisites>
   <distributionManagement>
     <snapshotRepository>
@@ -56,6 +58,8 @@
     <asciidoctor.version>0.1.3.1</asciidoctor.version>
     <!-- this version is by convention also used for jacoco dependencies in projects using the plugin -->
     <jacoco.version>0.6.3.201306030806</jacoco.version>
+    <!- Maven version requirement -->
+    <maven.version>3.1.1</maven.version>
   </properties>
   <build>
     <extensions>
@@ -648,6 +652,25 @@
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <stagingProfileId>42b61fb4c62700</stagingProfileId>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>${maven.version}</version>
+                </requireMavenVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
