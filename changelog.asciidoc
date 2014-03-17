@@ -22,6 +22,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * nexus-m2settings-maven-plugin 1.5.1 -> 1.6
 * nexus-staging-maven-plugin 1.5.1 -> 1.6
 * added clm-maven-plugin 2.2.0
+* added artifactory-maven-plugin 2.2.1
 
 === Version 1.2.0 - released 2013-12-02
 
