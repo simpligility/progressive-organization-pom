@@ -45,10 +45,10 @@
     <maven>${maven.version}</maven>
   </prerequisites>
   <distributionManagement>
-      <repository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-  </repository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -666,7 +666,7 @@
       </plugins>
     </pluginManagement>
     <plugins>
-    <!--   <plugin>
+      <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <extensions>true</extensions>
@@ -676,7 +676,7 @@
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <stagingProfileId>42b61fb4c62700</stagingProfileId>
         </configuration>
-      </plugin> -->
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
