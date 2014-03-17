@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simpligility.maven</groupId>
   <artifactId>progressive-organization-pom</artifactId>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.3.0</version>
   <packaging>pom</packaging>
   <name>Progressive Organization POM</name>
   <description>A organization pom for Maven projects using the latest versions of available plugins and progressively updating to the latest whenever possible.</description>
@@ -45,19 +45,23 @@
     <maven>${maven.version}</maven>
   </prerequisites>
   <distributionManagement>
+      <repository>
+    <id>ossrh</id>
+    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+  </repository>
     <snapshotRepository>
-      <id>ossrh-snapshots</id>
+      <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.scm.version>1.9</maven.scm.version>
-    <maven.surefire.version>2.16</maven.surefire.version>
+    <maven.surefire.version>2.17</maven.surefire.version>
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
     <asciidoctor.version>0.1.4</asciidoctor.version>
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
-    <jacoco.version>0.6.4.201312101107</jacoco.version>
+    <jacoco.version>0.6.5.201403032054</jacoco.version>
     <!-- Maven version requirement -->
     <maven.version>3.1.1</maven.version>
   </properties>
@@ -98,9 +102,14 @@
           <version>1.10.b1</version>
         </plugin>
         <plugin>
+          <groupId>com.sonatype.clm</groupId>
+          <artifactId>clm-maven-plugin</artifactId>
+          <version>2.2.0</version>
+        </plugin>
+        <plugin>
           <groupId>com.theoryinpractise</groupId>
           <artifactId>clojure-maven-plugin</artifactId>
-          <version>1.3.18</version>
+          <version>1.3.19</version>
         </plugin>
         <plugin>
             <groupId>net.alchim31.maven</groupId>
@@ -125,7 +134,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -162,7 +171,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.4</version>
+          <version>1.5</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -211,7 +220,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-pmd-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -226,7 +235,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.4.2</version>
+          <version>2.5</version>
           <dependencies>
             <dependency>
               <groupId>org.apache.maven.scm</groupId>
@@ -312,7 +321,7 @@
         <plugin>
           <groupId>org.codehaus.cargo</groupId>
           <artifactId>cargo-maven2-plugin</artifactId>
-          <version>1.4.6</version>
+          <version>1.4.7</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.gmaven</groupId>
@@ -422,7 +431,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>gwt-maven-plugin</artifactId>
-          <version>2.5.1</version>
+          <version>2.6.0</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -442,7 +451,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>jaxb2-maven-plugin</artifactId>
-          <version>1.5</version>
+          <version>1.6</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -572,7 +581,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>truezip-maven-plugin</artifactId>
-          <version>1.1</version>
+          <version>1.2</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -587,7 +596,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
-          <version>1.0-beta-4</version>
+          <version>1.0-beta-5</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -636,12 +645,12 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.5.1</version>
+          <version>1.6</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
-          <version>1.5.1</version>
+          <version>1.6</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
@@ -651,17 +660,17 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <plugin>
+    <!--   <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <extensions>true</extensions>
         <inherited>false</inherited>
         <configuration>
-          <serverId>ossrh-releases</serverId>
+          <serverId>ossrh</serverId>
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <stagingProfileId>42b61fb4c62700</stagingProfileId>
         </configuration>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
