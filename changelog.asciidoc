@@ -6,6 +6,9 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 === Version 1.3.1 or higher - upcoming
 
+* animal-sniffer-maven-plugin 1.10 -> 1.11
+* maven-jarsigner-plugin 1.3.1 -> 1.3.2
+* added maven-scm-publish-plugin 1.0
 
 === Version 1.3.0 - released 2014-03-17
 
