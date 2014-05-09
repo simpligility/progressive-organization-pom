@@ -18,6 +18,14 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * jarjar-maven-plugin 1.8 -> 1.9
 * nexus-m2settings-maven-plugin 1.6 -> 1.6.1
 * nexus-staging-maven-plugin 1.6 -> 1.6.1
+* maven-plugin-plugin 3.2 -> 3.3
+* maven-shade-plugin 2.2 -> 2.3
+* org.codehaus.mojo:buildnumber-maven-plugin 1.2 -> 1.3
+* org.codehaus.mojo:exec-maven-plugin  1.2.1 -> 1.3
+* org.codehaus.mojo:keytool-maven-plugin 1.4 -> 1.5
+* org.codehaus.mojo:license-maven-plugin 1.6 -> 1.7
+* org.codehaus.mojo:rpm-maven-plugin 2.1-alpha-3 -> 2.1-alpha-4
+
 
 === Version 1.3.0 - released 2014-03-17
 
