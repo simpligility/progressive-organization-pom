@@ -21,6 +21,7 @@ versions soon gets them fixed earlier.
 The pom is deployed to the Central Repository and can therefore be used by just adding
 the following snippet to your project pom.xml file.
 
+[source,xml]
 ----
 <parent>
   <groupId>com.simpligility.maven</groupId>
@@ -33,6 +34,7 @@ Once you have done that, you can reference any plugin without a version and will
 inherit the latest version automatically from the Progressive Organization POM 
 e.g. like that
 
+[source,xml]
 ----
 <plugin>
   <groupId>com.jayway.maven.plugins.android.generation2</groupId>
