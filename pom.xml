@@ -240,7 +240,7 @@
             <dependency>
               <groupId>org.apache.maven.scm</groupId>
               <artifactId>maven-scm-provider-gitexe</artifactId>
-              <version>${maven.scm.version}</version>
+              <version>1.9</version>
             </dependency>
           </dependencies>
           <configuration>
