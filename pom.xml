@@ -246,7 +246,7 @@
           <configuration>
             <!-- During release:perform, enable the "release" profile -->
             <releaseProfiles>release</releaseProfiles>
-            <goals>deploy nexus-staging:release</goals>
+            <goals>deploy</goals>
           </configuration>
         </plugin>
         <plugin>
