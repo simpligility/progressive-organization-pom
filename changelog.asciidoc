@@ -5,7 +5,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 === Version 1.5.2 or higher - upcoming
 
-=== Version 1.5.1  - released 2014-07-22
+=== Version 1.5.1  - released 2014-07-23
 
 * maven-scm-plugin 1.10 -> 1.9 - version 1.10 was wrong
 
