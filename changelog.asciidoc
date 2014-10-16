@@ -3,7 +3,43 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
-=== Version 1.5.2 or higher - upcoming
+=== Version 2.0.1 or higher - upcoming
+
+=== Version 2.0.0 - released 2014-10-16
+
+* com.github.github:site-maven-plugin 0.9 -> 0.10
+* com.github.maven-nar:nar-maven-plugin  3.1.0 -> 3.2.0
+* com.jayway.maven.plugins.android.generation2:android-maven-plugin  3.9.0-rc.2 -> 4.0.0-rc.1
+* com.sonatype.clm:clm-maven-plugin 2.2.1-01 -> 2.2.4
+* maven-assembly-plugin 2.4 -> 2.4.1
+* maven-changes-plugin 2.10 -> 2.11
+* maven-checkstyle-plugin 2.12.1 -> 2.13
+* maven-clean-plugin 2.5 -> 2.6
+* maven-compiler-plugin 3.1 -> 3.2
+* maven-dependency-plugin  2.8 -> 2.9
+* maven-deploy-plugin  2.8.1 -> 2.8.2
+* maven-install-plugin  2.5.1 -> 2.5.2
+* maven-javadoc-plugin  2.9.1 -> 2.10.1
+* maven-pmd-plugin  3.1 -> 3.2
+* maven-rar-plugin  2.3 -> 2.4
+* maven-release-plugin 2.5 -> 2.5.1
+* maven-resources-plugin  2.6 -> 2.7
+* maven-scm-plugin  1.9 -> 1.9.2
+* maven-source-plugin  2.3 -> 2.4
+* maven-war-plugin  2.4 -> 2.5
+* org.asciidoctor:asciidoctor-maven-plugin  0.1.4 -> 1.5.0
+* org.codehaus.cargo:cargo-maven2-plugin  1.4.8 -> 1.4.10
+* org.codehaus.groovy:groovy-eclipse-compiler 2.8.0-01 -> 2.9.0-01
+* org.codehaus.mojo:aspectj-maven-plugin  1.6 -> 1.7
+* org.codehaus.mojo:build-helper-maven-plugin  1.9 -> 1.9.1
+* org.codehaus.mojo:exec-maven-plugin  1.3.1 -> 1.3.2
+* org.codehaus.mojo:findbugs-maven-plugin  2.5.4 -> 3.0.0
+* org.codehaus.mojo:nbm-maven-plugin  3.13.3 -> 3.14
+* org.jacoco:jacoco-maven-plugin  0.7.1.201405082137 -> 0.7.2.201409121644
+* org.jfrog.buildinfo:artifactory-maven-plugin  2.2.1 -> 2.3.0
+* org.liquibase:liquibase-maven-plugin  3.2.1 -> 3.2.2
+* org.sonatype.plugins:nexus-m2settings-maven-plugin  1.6.2 -> 1.6.5
+* org.sonatype.plugins:nexus-staging-maven-plugin 1.6.2 -> 1.6.5
 
 === Version 1.5.1  - released 2014-07-23
 
