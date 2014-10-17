@@ -5,6 +5,9 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 === Version 2.0.1 or higher - upcoming
 
+* added takari lifecycle plugin 1.8.3
+* added takari plugin testing plugin 1.8.3
+
 === Version 2.0.0 - released 2014-10-16
 
 * com.github.github:site-maven-plugin 0.9 -> 0.10
