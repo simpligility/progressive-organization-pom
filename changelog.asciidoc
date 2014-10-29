@@ -3,14 +3,18 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
-=== Version 2.0.1 or higher - upcoming
+=== Version 2.1.1 - released 2014-10-29
+
+* downgraded maven-clean-plugin to 2.6 since 2.6.1 was only staged, but not released
+
+=== Version 2.1.0 - released 2014-10-28
 
 * added takari lifecycle plugin 1.8.4
 * added takari plugin testing plugin 1.8.4
 * android-maven-plugin 4.0.0-rc.1 -> 4.0.0-rc.2
 * maven-assembly-plugin 2.4.1 -> 2.5
-[INFO]   maven-clean-plugin ..................................... 2.6 -> 2.6.1
-[INFO]   maven-jxr-plugin ......................................... 2.4 -> 2.5
+* maven-clean-plugin 2.6 -> 2.6.1
+* maven-jxr-plugin 2.4 -> 2.5
 
 === Version 2.0.0 - released 2014-10-16
 
