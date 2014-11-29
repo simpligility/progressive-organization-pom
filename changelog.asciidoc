@@ -3,6 +3,24 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
+=== Version 2.2.0 - released 2014-11-28
+
+* changed groupId of android-maven-plugin to new com.simpligility.maven.plugins and version to 4.0.0
+* takari-lifecycle-plugin 1.8.4 -> 1.8.5
+* takari-plugin-testing-plugin 1.8.4 -> 1.8.5
+* maven-assembly-plugin 2.5 -> 2.5.2
+* maven-clean-plugin 2.6 -> 2.6.1
+* maven-failsafe-plugin 2.17 -> 2.18
+* maven-pmd-plugin 3.2 -> 3.3
+* maven-surefire-plugin 2.17 -> 2.18
+* maven-surefire-report-plugin 2.17 -> 2.18
+* org.codehaus.cargo:cargo-maven2-plugin 1.4.10 -> 1.4.11
+* animal-sniffer-maven-plugin 1.11 -> 1.12
+* appassembler-maven-plugin 1.8.1 -> 1.9
+* gwt-maven-plugin 2.6.1 -> 2.7.0
+* rpm-maven-plugin 2.1-alpha-4 -> 2.1
+* liquibase-maven-plugin 3.2.2 -> 3.3.0
+
 === Version 2.1.1 - released 2014-10-29
 
 * downgraded maven-clean-plugin to 2.6 since 2.6.1 was only staged, but not released
