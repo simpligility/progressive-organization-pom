@@ -26,7 +26,7 @@ the following snippet to your project pom.xml file.
 <parent>
   <groupId>com.simpligility.maven</groupId>
   <artifactId>progressive-organization-pom</artifactId>
-  <version>2.1.1</version>
+  <version>2.2.0</version>
 </parent>
 ----
 
@@ -92,6 +92,7 @@ This is appropriately licensed to be easily used by commercial and open source
 projects alike. Please let us know if you are using this project and are happy 
 to be listed here.
 
-- http://code.google.com/p/maven-android-plugin/[Android Maven Plugin]
+- https://github.com/simpligility/android-maven-plugin/[Android Maven Plugin]
+- https://github.com/simpligility/android-ndk-maven-plugin[Android NDK Maven Plugin]
 - http://code.google.com/p/ksoap2-android/[ksoap2-android]
 - https://github.com/mosabua/maven-android-sdk-deployer[Maven Android SDK Deployer]
