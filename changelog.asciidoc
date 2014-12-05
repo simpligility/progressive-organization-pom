@@ -3,6 +3,10 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
+=== Version x.y.z - upcoming
+
+* added frontend-maven-plugin 
+
 === Version 2.2.0 - released 2014-11-28
 
 * changed groupId of android-maven-plugin to new com.simpligility.maven.plugins and version to 4.0.0
