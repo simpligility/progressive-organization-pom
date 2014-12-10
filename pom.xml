@@ -653,6 +653,11 @@
           <version>${jacoco.version}</version>
         </plugin>
         <plugin>
+          <groupId>org.jolokia</groupId>
+          <artifactId>docker-maven-plugin</artifactId>
+          <version>0.10.5</version>
+        </plugin>
+        <plugin>
           <groupId>org.jfrog.buildinfo</groupId>
           <artifactId>artifactory-maven-plugin</artifactId>
           <version>2.3.0</version>
