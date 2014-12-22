@@ -59,7 +59,7 @@
     <maven.scm.version>1.9.2</maven.scm.version>
     <maven.surefire.version>2.18</maven.surefire.version>
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
-    <asciidoctor.version>1.5.0</asciidoctor.version>
+    <asciidoctor.version>1.5.2</asciidoctor.version>
     <takari.plugins.version>1.8.5</takari.plugins.version>
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
     <jacoco.version>0.7.2.201409121644</jacoco.version>
@@ -90,9 +90,14 @@
         <plugin>
           <groupId>com.github.eirslett</groupId>
           <artifactId>frontend-maven-plugin</artifactId>
-          <version>0.0.19</version>
-         </plugin>
-         <plugin>
+          <version>0.0.20</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.marschall</groupId>
+          <artifactId>jdeps-maven-plugin</artifactId>
+          <version>0.3.1</version>
+        </plugin>
+        <plugin>
           <groupId>com.github.maven-nar</groupId>
           <artifactId>nar-maven-plugin</artifactId>
           <version>3.2.0</version>
@@ -135,7 +140,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>2.5.2</version>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -515,7 +520,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>license-maven-plugin</artifactId>
-          <version>1.7</version>
+          <version>1.8</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -545,7 +550,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>rpm-maven-plugin</artifactId>
-          <version>2.1</version>
+          <version>2.1.1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -620,7 +625,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
-          <version>1.0-beta-5</version>
+          <version>1.0</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -648,6 +653,11 @@
           <version>2.3.3</version>
         </plugin>
         <plugin>
+          <groupId>org.gaul</groupId>
+          <artifactId>modernizer-maven-plugin</artifactId>
+          <version>1.2.0</version>
+        </plugin>
+        <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
           <version>${jacoco.version}</version>
@@ -665,7 +675,7 @@
         <plugin>
           <groupId>org.liquibase</groupId>
           <artifactId>liquibase-maven-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
