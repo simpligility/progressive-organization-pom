@@ -85,6 +85,7 @@ of a useful plugin in an issue is a welcome help.
 - Basil James Whitehouse III https://github.com/basil3whitehouse
 - Slawek Jaranowski https://github.com/slawekjaranowski
 - Karl Heinz Marbaise https://github.com/khmarbaise and http://blog.soebes.de/
+- Raphael Ackermann https://github.com/rtack
 
 == Known users of this project
 
