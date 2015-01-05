@@ -57,7 +57,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.scm.version>1.9.2</maven.scm.version>
-    <maven.surefire.version>2.18</maven.surefire.version>
+    <maven.surefire.version>2.18.1</maven.surefire.version>
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
     <asciidoctor.version>1.5.2</asciidoctor.version>
     <takari.plugins.version>1.8.5</takari.plugins.version>
@@ -175,7 +175,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-ear-plugin</artifactId>
-          <version>2.9.1</version>
+          <version>2.10</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -234,7 +234,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.3</version>
+          <version>3.4</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -655,7 +655,7 @@
         <plugin>
           <groupId>org.gaul</groupId>
           <artifactId>modernizer-maven-plugin</artifactId>
-          <version>1.2.0</version>
+          <version>1.2.2</version>
         </plugin>
         <plugin>
           <groupId>org.jacoco</groupId>
