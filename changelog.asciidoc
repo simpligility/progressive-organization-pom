@@ -8,7 +8,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * added  org.jolokia:docker-maven-plugin
 * added frontend-maven-plugin 0.0.20
 * animal-sniffer-maven-plugin 1.12 -> 1.13
-** https://github.com/simpligility/progressive-organization-pom/pull/14
+** see https://github.com/simpligility/progressive-organization-pom/pull/14
 ** contributed by Raphael Ackermann https://github.com/rtack
 * license-maven-plugin  1.7 -> 1.8
 * liquibase-maven-plugin 3.3.0 -> 3.3.1
@@ -17,6 +17,9 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * rpm-maven-plugin 2.1 -> 2.1.1
 * wagon-maven-plugin 1.0-beta-5 -> 1.0
 * added modernizer-maven-plugin 1.2.0
+* maven-ear-plugin 2.9.1 -> 2.10, maven-plugin-plugin 3.3 -> 3.4, modernizer-maven-plugin 1.2.0 -> 1.2.2
+** https://github.com/simpligility/progressive-organization-pom/pull/15
+** contributed by Raphael Ackermann https://github.com/rtack
 
 === Version 2.2.0 - released 2014-11-28
 
