@@ -3,7 +3,11 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
+Changes done by Manfred Moser unless otherwise documented. 
+
 === Version x.y.z - upcoming
+
+=== Version 2.3.0 - released 2015-01-05
 
 * added  org.jolokia:docker-maven-plugin
 * added frontend-maven-plugin 0.0.20
@@ -20,6 +24,8 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 * maven-ear-plugin 2.9.1 -> 2.10, maven-plugin-plugin 3.3 -> 3.4, modernizer-maven-plugin 1.2.0 -> 1.2.2
 ** https://github.com/simpligility/progressive-organization-pom/pull/15
 ** contributed by Raphael Ackermann https://github.com/rtack
+* maven-project-info-reports-plugin 2.7 -> 2.8
+* groovy-eclipse-compiler 2.9.0-01 -> 2.9.1-01
 
 === Version 2.2.0 - released 2014-11-28
 
