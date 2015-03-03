@@ -97,3 +97,4 @@ to be listed here.
 - https://github.com/simpligility/android-ndk-maven-plugin[Android NDK Maven Plugin]
 - http://code.google.com/p/ksoap2-android/[ksoap2-android]
 - https://github.com/mosabua/maven-android-sdk-deployer[Maven Android SDK Deployer]
+- https://github.com/simpligility/maven-repository-tools[Maven Repository Tools]
