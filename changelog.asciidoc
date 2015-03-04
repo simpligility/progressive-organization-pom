@@ -7,6 +7,7 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 2.4.0 - upcoming
 
+* cobertura-maven-plugin 2.6 -> 2.7
 * com.github.eirslett:frontend-maven-plugin 0.0.20 -> 0.0.22
 * com.github.github:site-maven-plugin 0.10 -> 0.11
 * com.github.maven-nar:nar-maven-plugin 3.2.0 -> 3.2.2
