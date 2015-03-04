@@ -7,6 +7,7 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 2.4.0 - upcoming
 
+* added org.apache.felix:maven-bundle-plugin 2.5.3
 * cobertura-maven-plugin 2.6 -> 2.7
 * com.github.eirslett:frontend-maven-plugin 0.0.20 -> 0.0.22
 * com.github.github:site-maven-plugin 0.10 -> 0.11
