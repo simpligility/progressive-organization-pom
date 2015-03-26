@@ -32,7 +32,7 @@
   <scm>
     <connection>scm:git:git://github.com/simpligility/progressive-organization-pom.git</connection>
     <developerConnection>scm:git:git@github.com:simpligility/progressive-organization-pom.git</developerConnection>
-    <url>http://github.com/simpligility/progressive-corganization-pom/tree/master</url>
+    <url>http://github.com/simpligility/progressive-organization-pom/tree/master</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
