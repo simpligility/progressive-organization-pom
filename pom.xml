@@ -63,7 +63,7 @@
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
     <jacoco.version>0.7.4.201502262128</jacoco.version>
     <!-- Maven version requirement -->
-    <maven.version>3.1.1</maven.version>
+    <maven.version>3.2.1</maven.version>
   </properties>
   <build>
     <extensions>
@@ -664,7 +664,7 @@
         <plugin>
           <groupId>org.jolokia</groupId>
           <artifactId>docker-maven-plugin</artifactId>
-          <version>0.10.5</version>
+          <version>0.11.2</version>
         </plugin>
         <plugin>
           <groupId>org.jfrog.buildinfo</groupId>
