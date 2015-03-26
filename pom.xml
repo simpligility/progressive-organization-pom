@@ -264,6 +264,8 @@
           <configuration>
             <!-- During release:perform, enable the "release" profile -->
             <releaseProfiles>release</releaseProfiles>
+          
+            <useReleaseProfile>false</useReleaseProfile>
             <goals>deploy</goals>
           </configuration>
         </plugin>
@@ -766,9 +768,9 @@
           </plugin>
           <!-- We want to deploy the artifact to a staging location for perusal -->
           <plugin>
-            <inherited>true</inherited>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-deploy-plugin</artifactId>
+            <inherited>true</inherited>
             <configuration>
               <updateReleaseInfo>true</updateReleaseInfo>
             </configuration>
