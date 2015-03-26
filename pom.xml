@@ -701,6 +701,11 @@
           <artifactId>port-allocator-maven-plugin</artifactId>
           <version>1.2</version>
         </plugin>
+	<plugin>
+	  <groupId>pl.project13.maven</groupId>
+	  <artifactId>git-commit-id-plugin</artifactId>
+	  <version>2.1.13</version>
+	</plugin>
       </plugins>
     </pluginManagement>
     <plugins>
