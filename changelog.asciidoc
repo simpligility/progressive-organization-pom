@@ -5,16 +5,22 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
-=== Version 2.4.0 - upcoming
+=== Version 2.4.1+ - upcoming
 
+* your changes could be here
+
+=== Version 2.4.0 - 2015-03-30
+
+* required Maven version upped to 3.2.1
 * added org.apache.felix:maven-bundle-plugin 2.5.3
+* added biz.aQute.bnd:bnd-maven-plugin:2.4.1
 * cobertura-maven-plugin 2.6 -> 2.7
 * com.github.eirslett:frontend-maven-plugin 0.0.20 -> 0.0.22
 * com.github.github:site-maven-plugin 0.10 -> 0.11
 * com.github.maven-nar:nar-maven-plugin 3.2.0 -> 3.2.2
 * com.simpligility.maven.plugins:android-maven-plugin 4.0.0 -> 4.1.1
 * com.sonatype.clm:clm-maven-plugin 2.2.4 -> 2.3.0-02
-* io.takari.maven.plugins:takari-lifecycle-plugin 1.9.2 -> 1.10.2
+* io.takari.maven.plugins:takari-lifecycle-plugin 1.9.2 -> 1.10.3
 * removed takari-plugin-testing-plugin, replaced by non-plugin approach
 * maven-checkstyle-plugin 2.13 -> 2.14
 * maven-dependency-plugin 2.9 -> 2.10
@@ -31,6 +37,21 @@ Changes done by Manfred Moser unless otherwise documented.
 * org.codehaus.mojo:tidy-maven-plugin 1.0-alpha-2 -> 1.0-beta-1
 * org.jacoco:jacoco-maven-plugin 0.7.2.201409121644 -> 0.7.4.201502262128
 * org.liquibase:liquibase-maven-plugin 3.3.1 -> 3.3.2
+* maven-compiler-plugin 3.2 -> 3.3
+* maven-invoker-plugin 1.9 -> 1.10
+* maven-scm-plugin  1.9.2 -> 1.9.4
+* org.codehaus.groovy:groovy-eclipse-compiler 2.9.1-01 -> 2.9.2-01
+
+Contributions from 
+* Manfred Moser http://www.simpligilty.com
+** various commits
+* Raphael Ackermann https://github.com/rtack
+** see https://github.com/simpligility/progressive-organization-pom/pull/19
+** see https://github.com/simpligility/progressive-organization-pom/pull/18
+** see https://github.com/simpligility/progressive-organization-pom/pull/17
+* Slawek Jaranowski https://github.com/slawekjaranowski
+** see https://github.com/simpligility/progressive-organization-pom/pull/16
+
 
 === Version 2.3.0 - released 2015-01-05
 
