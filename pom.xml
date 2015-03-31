@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simpligility.maven</groupId>
   <artifactId>progressive-organization-pom</artifactId>
-  <version>2.4.0</version>
+  <version>2.4.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Progressive Organization POM</name>
   <description>A organization pom for Maven projects using the latest versions of available plugins and progressively updating to the latest whenever possible.</description>
@@ -33,7 +33,7 @@
     <connection>scm:git:git://github.com/simpligility/progressive-organization-pom.git</connection>
     <developerConnection>scm:git:git@github.com:simpligility/progressive-organization-pom.git</developerConnection>
     <url>http://github.com/simpligility/progressive-organization-pom/tree/master</url>
-    <tag>2.4.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>Github</system>
