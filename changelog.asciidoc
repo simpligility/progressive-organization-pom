@@ -7,7 +7,9 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 2.4.1+ - upcoming
 
-* your changes could be here
+* added external.atlassian.jgitflow:jgitflow-maven-plugin:1.0-m4.3
+* io.takari.maven.plugins:takari-lifecycle-plugin 1.10.3 -> 1.11.3
+* org.springframework.boot:spring-boot-maven-plugin  1.2.2.RELEASE -> 1.2.3.RELEASE
 
 === Version 2.4.0 - 2015-03-30
 
