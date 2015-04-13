@@ -10,6 +10,9 @@ Changes done by Manfred Moser unless otherwise documented.
 * added external.atlassian.jgitflow:jgitflow-maven-plugin:1.0-m4.3
 * io.takari.maven.plugins:takari-lifecycle-plugin 1.10.3 -> 1.11.3
 * org.springframework.boot:spring-boot-maven-plugin  1.2.2.RELEASE -> 1.2.3.RELEASE
+* com.sonatype.clm:clm-maven-plugin 2.3.0-02 -> 2.4.0
+* maven-javadoc-plugin 2.10.2 -> 2.10.3
+* org.codehaus.mojo:appassembler-maven-plugin 1.9 -> 1.10
 
 === Version 2.4.0 - 2015-03-30
 
