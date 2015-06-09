@@ -5,7 +5,7 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
-=== Version 2.4.1+ - upcoming
+=== Version 2.5.0 - 2015-06-09
 
 * added external.atlassian.jgitflow:jgitflow-maven-plugin:1.0-m4.3
 * io.takari.maven.plugins:takari-lifecycle-plugin 1.10.3 -> 1.11.3
@@ -13,6 +13,24 @@ Changes done by Manfred Moser unless otherwise documented.
 * com.sonatype.clm:clm-maven-plugin 2.3.0-02 -> 2.4.0
 * maven-javadoc-plugin 2.10.2 -> 2.10.3
 * org.codehaus.mojo:appassembler-maven-plugin 1.9 -> 1.10
+* com.github.github:site-maven-plugin 0.11 -> 0.12
+* com.github.marschall:jdeps-maven-plugin 0.3.1 -> 0.4.0
+* com.github.maven-nar:nar-maven-plugin 3.2.2 -> 3.2.3
+* com.simpligility.maven.plugins:android-maven-plugin 4.1.1 -> 4.2.1
+* external.atlassian.jgitflow:jgitflow-maven-plugin 1.0-m4.3 -> 1.0-m5.1
+* io.takari.maven.plugins:takari-lifecycle-plugin 1.11.3 -> 1.11.6
+* org.apache.felix:maven-bundle-plugin 2.5.3 -> 2.5.4
+* maven-assembly-plugin 2.5.3 -> 2.5.5
+* maven-release-plugin 2.5.1 -> 2.5.2
+* org.codehaus.mojo:jaxb2-maven-plugin 1.6 -> 2.1
+* org.codehaus.mojo:rpm-maven-plugin 2.1.2 -> 2.1.3
+* org.codehaus.mojo:sonar-maven-plugin 2.5 -> 2.6
+* org.codehaus.mojo:versions-maven-plugin2.1 -> 2.2
+* org.jacoco:jacoco-maven-plugin  0.7.4.201502262128 -> 0.7.5.201505241946
+* org.jolokia:docker-maven-plugin 0.11.2 -> 0.11.5
+* org.liquibase:liquibase-maven-plugin 3.3.2 -> 3.3.5
+* org.springframework.boot:spring-boot-maven-plugin 1.2.3.RELEASE -> 1.2.4.RELEASE
+* pl.project13.maven:git-commit-id-plugin 2.1.13 -> 2.1.15
 
 === Version 2.4.0 - 2015-03-30
 
