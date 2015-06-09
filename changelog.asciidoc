@@ -5,6 +5,12 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
+
+=== Version 2.5.1 or higher - upcoming
+
+Your changes go here... 
+
+
 === Version 2.5.0 - 2015-06-09
 
 * added external.atlassian.jgitflow:jgitflow-maven-plugin:1.0-m4.3
