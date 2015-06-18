@@ -8,7 +8,7 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 2.5.1 or higher - upcoming
 
-Your changes go here... 
+* added  org.codehaus.mojo:javancss-maven-plugin:2.1 
 
 
 === Version 2.5.0 - 2015-06-09
