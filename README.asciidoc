@@ -79,6 +79,27 @@ For full text see LICENSE.txt file or http://www.apache.org/licenses/LICENSE-2.0
 are very welcome. Send a pull request or report issues on GitHub. Even just a suggestion
 of a useful plugin in an issue is a welcome help. 
 
+== Development
+
+You can check for new plugins and versions with
+
+----
+mvn versions:display-plugin-updates
+mvn versions:display-property-updates
+----
+
+Deployment and release are done the usual Maven way..
+
+----
+mvn clean deploy
+----
+
+and 
+
+----
+mvn release:prepare release:perform
+----
+
 == Contributors
 
 - Manfred Moser http://www.simpligility.com
@@ -95,6 +116,6 @@ to be listed here.
 
 - https://github.com/simpligility/android-maven-plugin/[Android Maven Plugin]
 - https://github.com/simpligility/android-ndk-maven-plugin[Android NDK Maven Plugin]
-- http://code.google.com/p/ksoap2-android/[ksoap2-android]
-- https://github.com/mosabua/maven-android-sdk-deployer[Maven Android SDK Deployer]
+- https://github.com/simpligility/ksoap2-android[ksoap2-android]
+- https://github.com/simpligility/maven-android-sdk-deployer[Maven Android SDK Deployer]
 - https://github.com/simpligility/maven-repository-tools[Maven Repository Tools]

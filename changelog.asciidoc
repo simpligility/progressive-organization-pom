@@ -14,28 +14,28 @@ You contributions could be here...
 * added  org.codehaus.mojo:javancss-maven-plugin:2.1 
 * added dependency for checkstyle 6.8.1 used in checkstyle plugin
 * added dependency for pmd 5.3.2 used in pmd plugin
-* com.github.eirslett:frontend-maven-plugin .......... 0.0.23 -> 0.0.25
-* com.spotify:docker-maven-plugin ..................... 0.2.11 -> 0.3.2
-* com.theoryinpractise:clojure-maven-plugin ........... 1.3.23 -> 1.7.1
-* io.takari.maven.plugins:takari-lifecycle-plugin ... 1.11.6 -> 1.11.10
-* net.alchim31.maven:scala-maven-plugin ................ 3.2.0 -> 3.2.2
-* maven-checkstyle-plugin ................................ 2.15 -> 2.16
-* maven-ear-plugin ..................................... 2.10 -> 2.10.1
-* maven-enforcer-plugin .................................. 1.4 -> 1.4.1
-* maven-invoker-plugin .................................. 1.10 -> 2.0.0
-* maven-pmd-plugin ......................................... 3.4 -> 3.5
-* maven-shade-plugin ..................................... 2.3 -> 2.4.1
-* org.asciidoctor:asciidoctor-maven-plugin ........... 1.5.2 -> 1.5.2.1
-* org.codehaus.cargo:cargo-maven2-plugin ............. 1.4.13 -> 1.4.15
-* org.codehaus.mojo:findbugs-maven-plugin .............. 3.0.1 -> 3.0.2
-* org.codehaus.mojo:jaxb2-maven-plugin ..................... 2.1 -> 2.2
-* org.codehaus.mojo:nbm-maven-plugin .................... 3.14 -> 4.0.1
-* org.gaul:modernizer-maven-plugin ..................... 1.3.0 -> 1.4.0
-* org.jolokia:docker-maven-plugin .................... 0.11.5 -> 0.13.3
-* org.liquibase:liquibase-maven-plugin ................. 3.3.5 -> 3.4.1
-* org.sonatype.plugins:nexus-m2settings-maven-plugin ... 1.6.5 -> 1.6.6
-* org.sonatype.plugins:nexus-staging-maven-plugin ...... 1.6.5 -> 1.6.6
-* org.springframework.boot:spring-boot-maven-plugin  1.2.4.RELEASE -> 1.2.5.RELEASE
+* com.github.eirslett:frontend-maven-plugin 0.0.23 -> 0.0.25
+* com.spotify:docker-maven-plugin 0.2.11 -> 0.3.2
+* com.theoryinpractise:clojure-maven-plugin 1.3.23 -> 1.7.1
+* io.takari.maven.plugins:takari-lifecycle-plugin 1.11.6 -> 1.11.10
+* net.alchim31.maven:scala-maven-plugin 3.2.0 -> 3.2.2
+* maven-checkstyle-plugin 2.15 -> 2.16
+* maven-ear-plugin 2.10 -> 2.10.1
+* maven-enforcer-plugin 1.4 -> 1.4.1
+* maven-invoker-plugin 1.10 -> 2.0.0
+* maven-pmd-plugin 3.4 -> 3.5
+* maven-shade-plugin 2.3 -> 2.4.1
+* org.asciidoctor:asciidoctor-maven-plugin 1.5.2 -> 1.5.2.1
+* org.codehaus.cargo:cargo-maven2-plugin 1.4.13 -> 1.4.15
+* org.codehaus.mojo:findbugs-maven-plugin 3.0.1 -> 3.0.2
+* org.codehaus.mojo:jaxb2-maven-plugin 2.1 -> 2.2
+* org.codehaus.mojo:nbm-maven-plugin 3.14 -> 4.0.1
+* org.gaul:modernizer-maven-plugin 1.3.0 -> 1.4.0
+* org.jolokia:docker-maven-plugin 0.11.5 -> 0.13.3
+* org.liquibase:liquibase-maven-plugin 3.3.5 -> 3.4.1
+* org.sonatype.plugins:nexus-m2settings-maven-plugin 1.6.5 -> 1.6.6
+* org.sonatype.plugins:nexus-staging-maven-plugin 1.6.5 -> 1.6.6
+* org.springframework.boot:spring-boot-maven-plugin 1.2.4.RELEASE -> 1.2.5.RELEASE
 
 === Version 2.5.0 - 2015-06-09
 
