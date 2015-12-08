@@ -9,6 +9,8 @@ Changes done by Manfred Moser unless otherwise documented.
 
 You contributions could be here... 
 
+=== Version 4.0.0 - 2015-12-08
+
 * added coffeescript-maven-plugin
 * added apache-rat-plugin
 * biz.aQute.bnd:bnd-maven-plugin 2.4.1 -> 3.0.0
