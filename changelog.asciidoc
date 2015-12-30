@@ -9,6 +9,8 @@ Changes done by Manfred Moser unless otherwise documented.
 
 You contributions could be here... 
 
+* added flatten-maven-plugin 1.0.0
+
 === Version 4.0.0 - 2015-12-08
 
 * added coffeescript-maven-plugin
