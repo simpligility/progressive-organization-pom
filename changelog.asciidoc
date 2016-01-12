@@ -10,6 +10,19 @@ Changes done by Manfred Moser unless otherwise documented.
 You contributions could be here... 
 
 * added flatten-maven-plugin 1.0.0
+* biz.aQute.bnd:bnd-maven-plugin ....................... 3.0.0 -> 3.1.0
+* com.github.eirslett:frontend-maven-plugin .......... 0.0.26 -> 0.0.27
+* com.spotify:docker-maven-plugin ...................... 0.3.7 -> 0.3.9
+* maven-failsafe-plugin ................................ 2.19 -> 2.19.1
+* maven-pmd-plugin ......................................... 3.5 -> 3.6
+* maven-shade-plugin ................................... 2.4.2 -> 2.4.3
+* maven-surefire-plugin ................................ 2.19 -> 2.19.1
+* maven-surefire-report-plugin ......................... 2.19 -> 2.19.1
+* org.asciidoctor:asciidoctor-maven-plugin ........... 1.5.2.1 -> 1.5.3
+* org.codehaus.cargo:cargo-maven2-plugin ............. 1.4.16 -> 1.4.17
+* org.codehaus.mojo:sonar-maven-plugin ................... 2.7.1 -> 3.0
+* org.codehaus.mojo:xml-maven-plugin ..................... 1.0 -> 1.0.1
+* org.springframework.boot:spring-boot-maven-plugin  1.3.0.RELEASE -> 1.3.1.RELEASE
 
 === Version 4.0.0 - 2015-12-08
 
