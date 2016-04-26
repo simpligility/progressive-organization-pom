@@ -60,7 +60,7 @@
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
     <asciidoctor.version>1.5.3</asciidoctor.version>
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
-    <jacoco.version>0.7.5.201505241946</jacoco.version>
+    <jacoco.version>0.7.6.201602180812</jacoco.version>
     <!-- Maven version requirement -->
     <maven.version>3.2.1</maven.version>
   </properties>
@@ -98,7 +98,7 @@
         <plugin>
           <groupId>com.github.eirslett</groupId>
           <artifactId>frontend-maven-plugin</artifactId>
-          <version>0.0.28</version>
+          <version>1.0</version>
         </plugin>
         <plugin>
           <groupId>com.github.marschall</groupId>
@@ -108,7 +108,7 @@
         <plugin>
           <groupId>com.github.maven-nar</groupId>
           <artifactId>nar-maven-plugin</artifactId>
-          <version>3.2.3</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <groupId>com.simpligility.maven.plugins</groupId>
@@ -118,12 +118,12 @@
         <plugin>
           <groupId>com.simpligility.maven.plugins</groupId>
           <artifactId>android-ndk-maven-plugin</artifactId>
-          <version>1.0.0</version>
+          <version>1.1.1</version>
         </plugin>
         <plugin>
           <groupId>com.spotify</groupId>
           <artifactId>docker-maven-plugin</artifactId>
-          <version>0.4.0</version>
+          <version>0.4.6</version>
         </plugin>
         <plugin>
           <groupId>com.mycila.maven-license-plugin</groupId>
@@ -148,7 +148,7 @@
         <plugin>
           <groupId>io.takari.maven.plugins</groupId>
           <artifactId>takari-lifecycle-plugin</artifactId>
-          <version>1.11.12</version>
+          <version>1.12.0</version>
         </plugin>
         <plugin>
             <groupId>net.alchim31.maven</groupId>
@@ -173,7 +173,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-changes-plugin</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -233,7 +233,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>2.6</version>
+          <version>3.0.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -272,7 +272,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>2.8.1</version>
+          <version>2.9</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -328,7 +328,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.4</version>
+          <version>3.5.1</version>
           <dependencies>
             <dependency>
               <groupId>org.asciidoctor</groupId>
@@ -340,7 +340,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>2.4</version>
+          <version>3.0.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -380,7 +380,7 @@
         <plugin>
           <groupId>org.codehaus.cargo</groupId>
           <artifactId>cargo-maven2-plugin</artifactId>
-          <version>1.4.18</version>
+          <version>1.4.19</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.gmaven</groupId>
@@ -395,7 +395,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>animal-sniffer-maven-plugin</artifactId>
-          <version>1.14</version>
+          <version>1.15</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -595,7 +595,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>rpm-maven-plugin</artifactId>
-          <version>2.1.4</version>
+          <version>2.1.5</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -705,17 +705,17 @@
         <plugin>
           <groupId>org.jolokia</groupId>
           <artifactId>docker-maven-plugin</artifactId>
-          <version>0.13.8</version>
+          <version>0.13.9</version>
         </plugin>
         <plugin>
           <groupId>org.jfrog.buildinfo</groupId>
           <artifactId>artifactory-maven-plugin</artifactId>
-          <version>2.3.0</version>
+          <version>2.4.1</version>
         </plugin>
         <plugin>
           <groupId>org.liquibase</groupId>
           <artifactId>liquibase-maven-plugin</artifactId>
-          <version>3.4.2</version>
+          <version>3.5.0</version>
         </plugin>
         <plugin>
           <groupId>org.skife.maven</groupId>
@@ -725,7 +725,7 @@
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.0.2</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
@@ -740,12 +740,12 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.6</version>
+          <version>1.6.7</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
-          <version>1.6.6</version>
+          <version>1.6.7</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
@@ -760,7 +760,7 @@
         <plugin>
           <groupId>pl.project13.maven</groupId>
           <artifactId>git-commit-id-plugin</artifactId>
-          <version>2.2.0</version>
+          <version>2.2.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
