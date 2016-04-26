@@ -8,6 +8,7 @@ Changes done by Manfred Moser unless otherwise documented.
 === Version 5.0.1+ - Upcoming
 
 * your contributions could be here
+* org.codehaus.mojo:tidy-maven-plugin to 1.0.0
 
 === Version 5.0.0 - 2016-04-26
 
