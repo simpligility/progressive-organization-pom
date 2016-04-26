@@ -5,7 +5,11 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
-=== Version 5.0.0 - Upcoming
+=== Version 5.0.1+ - Upcoming
+
+* your contributions could be here
+
+=== Version 5.0.0 - 2016-04-26
 
 * android-maven-plugin 4.2.1 -> 4.4.1
 * added org.skife.maven:really-executable-jar-maven-plugin:1.4.1
