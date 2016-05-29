@@ -7,6 +7,21 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 5.0.1+ - Upcoming
 
+
+FO] 
+[INFO] The following plugin updates are available:
+[INFO]   biz.aQute.bnd:bnd-maven-plugin ....................... 3.1.0 -> 3.2.0
+[INFO]   com.spotify:docker-maven-plugin ..................... 0.4.6 -> 0.4.10
+[INFO]   maven-resources-plugin ................................. 2.7 -> 3.0.0
+[INFO]   org.codehaus.gmaven:gmaven-plugin .............. 1.5 -> 1.5-jenkins-3
+[INFO]   org.codehaus.mojo:exec-maven-plugin .................. 1.4.0 -> 1.5.0
+[INFO]   org.codehaus.mojo:gwt-maven-plugin ............. 2.7.0 -> 2.8.0-beta1
+[INFO]   org.codehaus.mojo:license-maven-plugin ................... 1.8 -> 1.9
+[INFO]   org.liquibase:liquibase-maven-plugin ................. 3.5.0 -> 3.5.1
+[INFO]   org.skife.maven:really-executable-jar-maven-plugin ... 1.4.1 -> 1.5.0
+[INFO]   org.springframework.boot:spring-boot-maven-plugin  1.3.2.RELEASE -> 1.4.0.M3
+[INFO] 
+
 * your contributions could be here
 * org.codehaus.mojo:tidy-maven-plugin to 1.0.0
 
