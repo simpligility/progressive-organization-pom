@@ -8,15 +8,31 @@ Changes done by Manfred Moser unless otherwise documented.
 === Version 5.1.0+ - Upcoming
 
 * org.codehaus.mojo:tidy-maven-plugin to 1.0.0
-* biz.aQute.bnd:bnd-maven-plugin 3.1.0 -> 3.2.0
-* com.simpligility.maven.plugins:android-maven-plugin  4.4.1 -> 4.4.2
-* com.spotify:docker-maven-plugin 0.4.6 -> 0.4.10
+* biz.aQute.bnd:bnd-maven-plugin 3.1.0 -> 3.3.0
+* com.simpligility.maven.plugins:android-maven-plugin  4.4.1 -> 4.4.3
+* com.spotify:docker-maven-plugin 0.4.6 -> 0.4.13
 * maven-resources-plugin 2.7 -> 3.0.0
 * org.apache.rat:apache-rat-plugin 0.11 -> 0.12
 * org.codehaus.mojo:exec-maven-plugin 1.4.0 -> 1.5.0
 * org.codehaus.mojo:license-maven-plugi 1.8 -> 1.9
-* org.liquibase:liquibase-maven-plugin 3.5.0 -> 3.5.1
+* org.liquibase:liquibase-maven-plugin 3.5.0 -> 3.5.3
 * org.skife.maven:really-executable-jar-maven-plugin 1.4.1 -> 1.5.0
+* com.github.eirslett:frontend-maven-plugin 1.0 -> 1.1
+* com.github.maven-nar:nar-maven-plugin 3.4.0 -> 3.5.1
+* com.simpligility.maven.plugins:android-ndk-maven-plugin  1.1.1 -> 1.1.2
+* org.codehaus.cargo:cargo-maven2-plugin 1.4.19 -> 1.5.1
+* org.codehaus.mojo:appassembler-maven-plugin 1.10 -> 2.0.0
+* org.codehaus.mojo:build-helper-maven-plugin 1.10 -> 1.12
+* org.codehaus.mojo:cassandra-maven-plugin 2.1.7-1 -> 3.5
+* org.codehaus.mojo:clirr-maven-plugin 2.7 -> 2.8
+* org.codehaus.mojo:findbugs-maven-plugin 3.0.3 -> 3.0.4
+* org.codehaus.mojo:gwt-maven-plugin 2.7.0 -> 2.8.0
+* org.codehaus.mojo:jaxb2-maven-plugin 2.2 -> 2.3
+* org.codehaus.mojo:license-maven-plugin 1.9 -> 1.10
+* org.codehaus.mojo:versions-maven-plugin 2.2 -> 2.3
+* org.jacoco:jacoco-maven-plugin  0.7.6.201602180812 -> 0.7.7.201606060606
+* org.sonarsource.scanner.maven:sonar-maven-plugin 3.0.2 -> 3.2
+* org.springframework.boot:spring-boot-maven-plugin  1.3.2.RELEASE -> 1.4.1.RELEASE
 * your contributions could be here
 
 === Version 5.0.0 - 2016-04-26
