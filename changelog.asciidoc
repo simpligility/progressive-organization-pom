@@ -18,7 +18,7 @@ Changes done by Manfred Moser unless otherwise documented.
 * maven-assembly-plugin 2.6 -> 3.0.0
 * maven-compiler-plugin 3.6.0 -> 3.6.1
 * maven-dependency-plugin  2.10 -> 3.0.0
-[ maven-jar-plugin  3.0.0 -> 3.0.2
+* maven-jar-plugin  3.0.0 -> 3.0.2
 * maven-javadoc-plugin 2.10.3 -> 2.10.4
 * maven-plugin-plugin 3.4 -> 3.5
 * maven-pmd-plugin 3.6 -> 3.7
