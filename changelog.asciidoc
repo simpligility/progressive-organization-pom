@@ -5,7 +5,11 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
-=== Version 6.0.0 - Upcoming
+=== Version 6.0.1+ - Upcoming
+
+* your contributions could be here
+
+=== Version 6.0.0 - 2017-03-23
 
 * biz.aQute.bnd:bnd-maven-plugin 3.1.0 -> 3.3.0
 * com.github.eirslett:frontend-maven-plugin 1.0 -> 1.3
