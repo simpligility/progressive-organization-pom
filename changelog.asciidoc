@@ -5,9 +5,73 @@ https://github.com/simpligility/progressive-organization-pom/commits/master
 
 Changes done by Manfred Moser unless otherwise documented. 
 
-=== Version 6.0.1+ - Upcoming
+=== Version 7.0.0 - Upcoming
 
-* your contributions could be here
+* biz.aQute.bnd:bnd-maven-plugin ....................... 3.3.0 -> 4.1.0
+* com.github.eirslett:frontend-maven-plugin .............. 1.3 -> 1.7.5
+* com.github.marschall:jdeps-maven-plugin .............. 0.4.0 -> 0.5.1
+* com.github.maven-nar:nar-maven-plugin ................ 3.5.1 -> 3.6.0
+* com.simpligility.maven.plugins:android-maven-plugin .. 4.4.3 -> 4.5.0
+* com.sonatype.clm:clm-maven-plugin ............. 2.6.0-01 -> 2.10.1-01
+* com.spotify:docker-maven-plugin ..................... 0.4.13 -> 1.2.0
+* io.takari.maven.plugins:takari-lifecycle-plugin .... 1.12.3 -> 1.13.9
+* net.alchim31.maven:scala-maven-plugin ................ 3.2.2 -> 3.3.2
+* org.apache.felix:maven-bundle-plugin ................. 3.3.0 -> 4.0.0
+* maven-assembly-plugin ................................ 3.0.0 -> 3.1.1
+* maven-checkstyle-plugin ............................... 2.17 -> 3.0.0
+* maven-clean-plugin ................................... 3.0.0 -> 3.1.0
+* maven-compiler-plugin ................................ 3.6.1 -> 3.8.0
+* maven-dependency-plugin .............................. 3.0.0 -> 3.1.1
+* maven-deploy-plugin ............................... 2.8.2 -> 3.0.0-M1
+* maven-ear-plugin .................................... 2.10.1 -> 3.0.1
+* maven-enforcer-plugin ............................. 1.4.1 -> 3.0.0-M2
+* maven-failsafe-plugin ............................ 2.19.1 -> 3.0.0-M3
+* maven-help-plugin ...................................... 2.2 -> 3.1.1
+* maven-install-plugin .............................. 2.5.2 -> 3.0.0-M1
+* maven-invoker-plugin ................................. 2.0.0 -> 3.2.0
+* maven-jar-plugin ..................................... 3.0.2 -> 3.1.1
+* maven-jarsigner-plugin ................................. 1.4 -> 3.0.0
+* maven-javadoc-plugin ................................ 2.10.4 -> 3.0.1
+* maven-jdeps-plugin ................................... 3.0.0 -> 3.1.1
+* maven-jxr-plugin ....................................... 2.5 -> 3.0.0
+* maven-pdf-plugin ......................................... 1.3 -> 1.4
+* maven-plugin-plugin .................................... 3.5 -> 3.6.0
+* maven-pmd-plugin ...................................... 3.7 -> 3.11.0
+* maven-project-info-reports-plugin ...................... 2.9 -> 3.0.0
+* maven-resources-plugin ............................... 3.0.2 -> 3.1.0
+* maven-scm-plugin .................................... 1.9.5 -> 1.11.1
+* maven-scm-publish-plugin ............................... 1.1 -> 3.0.0
+* maven-shade-plugin ................................... 3.0.0 -> 3.2.1
+* maven-site-plugin ...................................... 3.6 -> 3.7.1
+* maven-surefire-plugin ............................ 2.19.1 -> 3.0.0-M3
+* maven-surefire-report-plugin ..................... 2.19.1 -> 3.0.0-M3
+* maven-war-plugin ..................................... 3.0.0 -> 3.2.2
+* org.apache.rat:apache-rat-plugin ....................... 0.12 -> 0.13
+* org.asciidoctor:asciidoctor-maven-plugin ........... 1.5.5 -> 1.5.7.1
+* org.codehaus.mojo:animal-sniffer-maven-plugin .......... 1.15 -> 1.17
+* org.codehaus.mojo:aspectj-maven-plugin ................. 1.10 -> 1.11
+* org.codehaus.mojo:cassandra-maven-plugin ................. 3.5 -> 3.6
+* org.codehaus.mojo:findbugs-maven-plugin .............. 3.0.4 -> 3.0.5
+* org.codehaus.mojo:gwt-maven-plugin ................... 2.8.0 -> 2.8.2
+* org.codehaus.mojo:jaxb2-maven-plugin ................... 2.3.1 -> 2.4
+* org.codehaus.mojo:license-maven-plugin ................. 1.12 -> 1.19
+* org.codehaus.mojo:rpm-maven-plugin ................... 2.1.5 -> 2.2.0
+* org.codehaus.mojo:tidy-maven-plugin .................. 1.0.0 -> 1.1.0
+* org.codehaus.mojo:versions-maven-plugin .................. 2.3 -> 2.7
+* org.codehaus.mojo:wagon-maven-plugin ................... 1.0 -> 2.0.0
+* org.codehaus.mojo:xml-maven-plugin ................... 1.0.1 -> 1.0.2
+* org.gaul:modernizer-maven-plugin ..................... 1.5.0 -> 1.8.0
+* org.jacoco:jacoco-maven-plugin ....................... 0.7.9 -> 0.8.3
+* org.liquibase:liquibase-maven-plugin ................. 3.5.3 -> 3.6.3
+* org.sonarsource.scanner.maven:sonar-maven-plugin  3.3.0.603 -> 3.6.0.1398
+* org.springframework.boot:spring-boot-maven-plugin  1.5.2.RELEASE -> 2.1.3.RELEASE
+* pl.project13.maven:git-commit-id-plugin .............. 2.2.2 -> 2.2.6
+* com.theoryinpractise:clojure-maven-plugin .......... 1.7.1 -> 1.8.2
+* net.alchim31.maven:scala-maven-plugin .............. 3.3.2 -> 4.0.0
+* org.apache.felix:maven-bundle-plugin ............... 4.0.0 -> 4.1.0
+* org.codehaus.cargo:cargo-maven2-plugin ............. 1.5.1 -> 1.7.2
+* org.codehaus.mojo:flatten-maven-plugin ............. 1.0.0 -> 1.1.0
+* Maven update requirement to 3.6.0
 
 === Version 6.0.0 - 2017-03-23
 
