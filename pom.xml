@@ -50,7 +50,8 @@
   </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.scm.version>1.11.1</maven.scm.version>
+    <!--  1.11.1 doesnt work, see https://issues.apache.org/jira/browse/MRELEASE-1013-->
+    <maven.scm.version>1.10.0</maven.scm.version>
     <maven.surefire.version>3.0.0-M3</maven.surefire.version>
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
     <asciidoctor.version>1.5.7.1</asciidoctor.version>
