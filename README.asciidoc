@@ -16,8 +16,7 @@ are therefore an improvement worth adopting. This is done even if this early ado
 ends up finding issues in the belief that finding issues early by adopting new 
 versions soon gets them fixed earlier.
  
- * image:https://travis-ci.org/simpligility/progressive-organization-pom.png["Build Status", link="https://travis-ci.org/simpligility/progressive-organization-pom"]
- 
+
 == Usage
 
 The pom is deployed to the Central Repository and can therefore be used by just adding
