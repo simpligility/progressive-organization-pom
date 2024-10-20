@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2012-Present  simpligility technologies inc. -->
 <!-- Licensed under the Apache License, Version 2.0 (the "License") -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -31,8 +32,8 @@
   <scm>
     <connection>scm:git:git://github.com/simpligility/progressive-organization-pom.git</connection>
     <developerConnection>scm:git:git@github.com:simpligility/progressive-organization-pom.git</developerConnection>
-    <url>http://github.com/simpligility/progressive-organization-pom/tree/master</url>
     <tag>HEAD</tag>
+    <url>http://github.com/simpligility/progressive-organization-pom/tree/master</url>
   </scm>
   <issueManagement>
     <system>Github</system>
@@ -60,13 +61,6 @@
     <maven.version>3.8.5</maven.version>
   </properties>
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.jvnet.wagon-svn</groupId>
-        <artifactId>wagon-svn</artifactId>
-        <version>1.9</version>
-      </extension>
-    </extensions>
     <pluginManagement>
       <!-- Plugins are sorted alphabetically by groupId, artifactId.. -->
       <plugins>
@@ -151,9 +145,9 @@
           <version>2.2.0</version>
         </plugin>
         <plugin>
-            <groupId>net.alchim31.maven</groupId>
-            <artifactId>scala-maven-plugin</artifactId>
-            <version>4.9.2</version>
+          <groupId>net.alchim31.maven</groupId>
+          <artifactId>scala-maven-plugin</artifactId>
+          <version>4.9.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.felix</groupId>
@@ -238,7 +232,8 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jarsigner-plugin</artifactId>
-          <version>3.1.0</version></plugin>
+          <version>3.1.0</version>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
@@ -283,6 +278,13 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>3.1.1</version>
+          <configuration>
+            <!-- During release:perform, enable the "release" profile -->
+            <releaseProfiles>release</releaseProfiles>
+
+            <useReleaseProfile>false</useReleaseProfile>
+            <goals>deploy</goals>
+          </configuration>
           <dependencies>
             <dependency>
               <groupId>org.apache.maven.scm</groupId>
@@ -290,13 +292,6 @@
               <version>${maven.scm.version}</version>
             </dependency>
           </dependencies>
-          <configuration>
-            <!-- During release:perform, enable the "release" profile -->
-            <releaseProfiles>release</releaseProfiles>
-          
-            <useReleaseProfile>false</useReleaseProfile>
-            <goals>deploy</goals>
-          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -373,9 +368,9 @@
           <version>2.2</version>
         </plugin>
         <plugin>
-            <groupId>org.asciidoctor</groupId>
-            <artifactId>asciidoctor-maven-plugin</artifactId>
-            <version>${asciidoctor.version}</version>
+          <groupId>org.asciidoctor</groupId>
+          <artifactId>asciidoctor-maven-plugin</artifactId>
+          <version>${asciidoctor.version}</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.cargo</groupId>
@@ -797,6 +792,13 @@
         </executions>
       </plugin>
     </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.jvnet.wagon-svn</groupId>
+        <artifactId>wagon-svn</artifactId>
+        <version>1.9</version>
+      </extension>
+    </extensions>
   </build>
   <profiles>
     <profile>
