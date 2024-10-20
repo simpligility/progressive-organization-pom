@@ -96,6 +96,11 @@
           <version>1.15.1</version>
         </plugin>
         <plugin>
+          <groupId>com.github.ekryd.sortpom</groupId>
+          <artifactId>sortpom-maven-plugin</artifactId>
+          <version>3.4.0</version>
+        </plugin>
+        <plugin>
           <groupId>com.github.marschall</groupId>
           <artifactId>jdeps-maven-plugin</artifactId>
           <version>0.5.1</version>
