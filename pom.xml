@@ -735,12 +735,12 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.8</version>
+          <version>1.7.0</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
-          <version>1.6.8</version>
+          <version>1.7.0</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
