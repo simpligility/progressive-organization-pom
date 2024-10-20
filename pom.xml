@@ -58,7 +58,7 @@
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
     <jacoco.version>0.8.3</jacoco.version>
     <!-- Maven version requirement -->
-    <maven.version>3.6.0</maven.version>
+    <maven.version>3.8.5</maven.version>
   </properties>
   <build>
     <extensions>
