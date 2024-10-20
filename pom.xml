@@ -53,7 +53,7 @@
     <maven.scm.version>2.1.0</maven.scm.version>
     <maven.surefire.version>3.5.1</maven.surefire.version>
     <codehaus.chronos.jmeter.version>1.1.0</codehaus.chronos.jmeter.version>
-    <asciidoctor.version>1.5.7.1</asciidoctor.version>
+    <asciidoctor.version>3.0.0</asciidoctor.version>
     <!-- this version property is by convention also used for jacoco dependencies in projects using the plugin -->
     <jacoco.version>0.8.3</jacoco.version>
     <!-- Maven version requirement -->
