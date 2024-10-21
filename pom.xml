@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simpligility.maven</groupId>
   <artifactId>progressive-organization-pom</artifactId>
-  <version>7.0.1-SNAPSHOT</version>
+  <version>8.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Progressive Organization POM</name>
   <description>A organization pom for Maven projects using the latest versions of available plugins and progressively updating to the latest whenever possible.</description>
@@ -792,13 +792,6 @@
         </executions>
       </plugin>
     </plugins>
-    <extensions>
-      <extension>
-        <groupId>org.jvnet.wagon-svn</groupId>
-        <artifactId>wagon-svn</artifactId>
-        <version>1.9</version>
-      </extension>
-    </extensions>
   </build>
   <profiles>
     <profile>
