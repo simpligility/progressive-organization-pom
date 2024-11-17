@@ -725,7 +725,7 @@
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>4.0.0.4121</version>
+          <version>5.0.0.4389</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
@@ -755,7 +755,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>3.3.4</version>
+          <version>3.3.5</version>
         </plugin>
         <plugin>
           <groupId>pl.project13.maven</groupId>
