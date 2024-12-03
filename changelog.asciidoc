@@ -7,7 +7,13 @@ Changes done by Manfred Moser unless otherwise documented.
 
 === Version 8.0.0 - 2024-12-02
 
-Lots and lots of updates, see git changelog.
+* Lots and lots of plugin updates, see git changelog.
+* Raise Maven version requirement to 3.8.5
+* Change to use Maven 3.9.9 and latest wrapper
+* Replace Travis with GitHub Actions for CI
+* Add spotless plugin
+* Add sortpom plugin
+* Remove wagon-svn setup
 
 === Version 7.0.0 - 2019-03-04
 
