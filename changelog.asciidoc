@@ -3,7 +3,11 @@
 Detailed commit log is available on
 https://github.com/simpligility/progressive-organization-pom/commits/master
 
-Changes done by Manfred Moser unless otherwise documented. 
+Changes done by Manfred Moser unless otherwise documented.
+
+=== Version 8.0.0 - 2024-12-02
+
+Lots and lots of updates, see git changelog.
 
 === Version 7.0.0 - 2019-03-04
 
