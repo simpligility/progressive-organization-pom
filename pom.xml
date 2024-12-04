@@ -140,6 +140,11 @@
           <version>1.9.3</version>
         </plugin>
         <plugin>
+          <groupId>eu.maveniverse.maven.plugins</groupId>
+          <artifactId>toolbox</artifactId>
+          <version>0.5.2</version>
+        </plugin>
+        <plugin>
           <groupId>external.atlassian.jgitflow</groupId>
           <artifactId>jgitflow-maven-plugin</artifactId>
           <version>1.0-m5.1</version>
