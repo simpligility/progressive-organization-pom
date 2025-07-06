@@ -41,12 +41,12 @@
   </issueManagement>
   <distributionManagement>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>sonatype-central-portal</id>
+      <url>https://repo.maven.apache.org/maven2</url>
     </repository>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>sonatype-central-portal</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
@@ -59,8 +59,16 @@
     <jacoco.version>0.8.12</jacoco.version>
     <!-- Maven version requirement -->
     <maven.version>3.8.5</maven.version>
+    <njord.version>0.8.0</njord.version>
   </properties>
   <build>
+    <extensions>
+      <extension>
+        <groupId>eu.maveniverse.maven.njord</groupId>
+        <artifactId>extension3</artifactId>
+        <version>${njord.version}</version>
+      </extension>
+    </extensions>
     <pluginManagement>
       <!-- Plugins are sorted alphabetically by groupId, artifactId.. -->
       <plugins>
@@ -138,6 +146,11 @@
           <groupId>com.theoryinpractise</groupId>
           <artifactId>clojure-maven-plugin</artifactId>
           <version>1.9.3</version>
+        </plugin>
+        <plugin>
+          <groupId>eu.maveniverse.maven.plugins</groupId>
+          <artifactId>njord</artifactId>
+          <version>${njord.version}</version>
         </plugin>
         <plugin>
           <groupId>eu.maveniverse.maven.plugins</groupId>
@@ -744,11 +757,6 @@
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
-          <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.7.0</version>
-        </plugin>
-        <plugin>
-          <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-m2settings-maven-plugin</artifactId>
           <version>1.7.0</version>
         </plugin>
@@ -770,18 +778,6 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <extensions>true</extensions>
-        <inherited>false</inherited>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <stagingProfileId>42b61fb4c62700</stagingProfileId>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
