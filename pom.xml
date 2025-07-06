@@ -155,7 +155,7 @@
         <plugin>
           <groupId>eu.maveniverse.maven.plugins</groupId>
           <artifactId>toolbox</artifactId>
-          <version>0.5.2</version>
+          <version>0.11.4</version>
         </plugin>
         <plugin>
           <groupId>external.atlassian.jgitflow</groupId>
